@@ -16,6 +16,8 @@ public class EntradaSaida {
 		
 		System.out.println("Insira a idade: ");	
 		idade = leia.nextInt();
+		
+		leia.close();
 				
 		System.out.println("Nome: " + nome); // saída
 		System.out.println("Idade: " + idade);

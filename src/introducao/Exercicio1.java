@@ -17,6 +17,8 @@ public class Exercicio1 {
 		System.out.println("Digite o abono: ");	
 		abono = leia.nextFloat();
 		
+		leia.close();
+		
 		float novoSalario = salario + abono;
 		
 		System.out.println("O novo salário é " + novoSalario);
