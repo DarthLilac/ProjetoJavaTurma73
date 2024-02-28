@@ -18,6 +18,8 @@ public class Lista2Ex5 {
         System.out.println("Digite a quantidade comprada:");
         quantidade = leia.nextInt();
         
+        leia.close();
+        
         switch (codigo) {
         case 1:
             preco = 10.00;
@@ -52,7 +54,7 @@ public class Lista2Ex5 {
         
         System.out.println("Produto comprado: " + produto);
         System.out.println("Valor total da conta: R$" + total);
-
+        
 	}
 
 }
