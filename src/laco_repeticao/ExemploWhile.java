@@ -10,7 +10,7 @@ public class ExemploWhile {
 		int numero1, numero2, resultado;
 		Scanner leia = new Scanner(System.in);
 
-		while (!continua.equals("n")) {
+		while (continua.equals("s")) {
 			
 			System.out.println("Digite primeiro valor: ");
 			numero1 = leia.nextInt();
