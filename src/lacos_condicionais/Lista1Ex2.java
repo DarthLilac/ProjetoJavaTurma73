@@ -24,7 +24,7 @@ public class Lista1Ex2 {
         } else if (numero < 0) {
             System.out.println("e negativo!");
         } else {
-            System.out.println("e zero!");
+            System.out.println("e é zero!");
         }
         
         leia.close();
