@@ -26,6 +26,7 @@ public class List2_set_ex3 {
 		System.out.println();
 		System.out.println("Dados do set:");
 		Iterator<Integer> iterator = numeros.iterator();
+		
 		while (iterator.hasNext()) {
 			System.out.println(iterator.next());
 		}
